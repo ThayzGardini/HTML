@@ -1,0 +1,87 @@
+<!--
+    comentarios
+-->
+<FONt COLOR="#48D1CC">
+    comentarios não aparecem no preview <br>
+</FONt>
+
+<!--comentario nao-->
+<H1>
+    <font color="#8B4513">
+        TAGS
+    </font>
+</H1>
+<br><b>Tags (anatomia das tags)</b><br>
+<br>-Abertura da tag:  <
+<br>-Fechamento da tag: /> 
+<br>-Conteudo
+<br>-Elementos   
+<br>
+
+<h1>Título ( h1: titulo)</h1> <!--Essa é uma tag de conteudo com elementos dentro-->
+<h1> 
+    <font color="#8B4513">
+    <b>Elementos vazios:</b>
+    </font>
+</h1>
+<br>tag 'img' por exemplo: 
+<br>img src="" alt=""
+<br>input type="text"
+<br><img src="" alt=""> <!--Tipo de elemento vazio, com atributos-->
+<br><input type="text"> <!--Tipo de elemento vazio que recebe valores--> 
+<br>
+<br>
+<b>Elementos possui Tributos:</b>
+<br>-que servem para informações extras
+<br>-e configurações
+<br>
+<br>img src="" alt=""
+<br>img src="imagem.png" alt=""
+<img src="" alt=""> <!--nesse caso da img é configuração, pois no src= tenho que colocar o nome da imagem pra ele buscar se nao minha tag nao ira funcionar-->
+<img src="imagem.png" alt="">
+<img src="imagem.png" alt=""> <!--caso não tenha a imagem é possivel colocar no alt= um texto alternativo, caso a imagem quebre-->
+<br>
+<img src="imagem.png" alt="texto alternativo">
+
+<br>img 
+<br>src= NOME DO ATRIBUTO
+<br>"imagem.png" CONTEUDO DENTRO DAS " ASPAS DUPLAS "
+<br>alt=""
+<br>
+<!--Atributos booleanos que não precisam de conteudo-->
+<br>
+<h1>
+    <font color="#8B4513">
+        <b>Atributos booleanos (verdadeiro OU falso) que não precisam de conteudo</b>
+    </font>
+</h1>
+<br>
+Exemplo:
+<br>
+Pegando uma tag input que serve para criar uma caixa de texto no preview do html: 
+<br>
+<input type="text">
+<br>
+Agora para desabilitar essa caixa, é so fazer o seguinte:
+<br>
+<input type="text" disabled>
+<br>
+<!--Sobre as aspas: Omissão/Simples/Duplas-->
+<br>
+<h1>
+    <font color="#8B4513">
+        <b>Sobre as aspas: Omissão/Simples/Duplas</b>
+    </font>
+</h1>
+<br>Exemplo: usando a tag a, essa tag é para usar links
+<br> a href=""
+<br> <a href="">link</a> 
+<br> 1- colocando link na pagina, para levar para algum site ao clicar
+<br> href= inserir o caminho que eu posso colocar sem as aspas duplas que funciona, assim:
+<br>
+<a href="https://www.google.com/">link</a>
+<br>mas não é recomendado, pois caso precise colocar algum titulo, pode ser que a tag entenda que faça parte do link e não abra, então o ideal é colocar assim:
+<br>
+<a href="https://www.google.com/" title="Entrar no google">link</a>
+<br>
+<br>
