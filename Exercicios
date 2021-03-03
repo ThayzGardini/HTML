@@ -1,0 +1,19 @@
+<!--
+   Exercicios
+
+   Escrever 2 paragrafos dando enfase e importancia
+   para algumas palavras, e adicione um link de saiba mais.
+
+   - use a tag em para enfase
+   - use a tag strong ou B para importancia NEGRITO
+   - o link pode levar para o google
+-->
+<p>
+   Esse é meu <em>primeiro paragrafo</em> depois de ver as aulas de HTML
+   <p>Aqui estou aplicando algumas coisas <strong> sem consultar</strong></p>
+</p>
+<br>
+<p>Nesse momento estou <strong>escrevendo</strong>  o meu segundo paragrafo
+   <p>Esse exercicios são importantes, caso queira saber mais:</p>
+   <p> <a href="https://www.google.com">Saiba mais</a></p>
+</p>
