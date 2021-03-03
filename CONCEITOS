@@ -1,0 +1,293 @@
+<!--
+    comentarios
+-->
+<FONt COLOR="#48D1CC">
+    comentarios não aparecem no preview <br>
+</FONt>
+
+<!--comentario nao-->
+<H1>
+    <font color="#8B4513">
+        TAGS
+    </font>
+</H1>
+<br><b>Tags (anatomia das tags)</b><br>
+<br>-Abertura da tag:  <
+<br>-Fechamento da tag: /> 
+<br>-Conteudo
+<br>-Elementos   
+<br>
+
+<h1>Título ( h1: titulo)</h1> <!--Essa é uma tag de conteudo com elementos dentro-->
+<h1> 
+    <font color="#8B4513">
+    <b>Elementos vazios:</b>
+    </font>
+</h1>
+<br>tag 'img' por exemplo: 
+<br>img src="" alt=""
+<br>input type="text"
+<br><img src="" alt=""> <!--Tipo de elemento vazio, com atributos-->
+<br><input type="text"> <!--Tipo de elemento vazio que recebe valores--> 
+<br>
+<br>
+<b>Elementos possui Tributos:</b>
+<br>-que servem para informações extras
+<br>-e configurações
+<br>
+<br>img src="" alt=""
+<br>img src="imagem.png" alt=""
+<img src="" alt=""> <!--nesse caso da img é configuração, pois no src= tenho que colocar o nome da imagem pra ele buscar se nao minha tag nao ira funcionar-->
+<img src="imagem.png" alt="">
+<img src="imagem.png" alt=""> <!--caso não tenha a imagem é possivel colocar no alt= um texto alternativo, caso a imagem quebre-->
+<br>
+<img src="imagem.png" alt="texto alternativo">
+
+<br>img 
+<br>src= NOME DO ATRIBUTO
+<br>"imagem.png" CONTEUDO DENTRO DAS " ASPAS DUPLAS "
+<br>alt=""
+<br>
+<!--Atributos booleanos que não precisam de conteudo-->
+<br>
+<h1>
+    <font color="#8B4513">
+        <b>Atributos booleanos (verdadeiro OU falso) que não precisam de conteudo</b>
+    </font>
+</h1>
+<br>
+Exemplo:
+<br>
+Pegando uma tag input que serve para criar uma caixa de texto no preview do html: 
+<br>
+<input type="text">
+<br>
+Agora para desabilitar essa caixa, é so fazer o seguinte:
+<br>
+<input type="text" disabled>
+<br>
+<!--Sobre as aspas: Omissão/Simples/Duplas-->
+<br>
+<h1>
+    <font color="#8B4513">
+        <b>Sobre as aspas: Omissão/Simples/Duplas</b>
+    </font>
+</h1>
+<br>Exemplo: usando a tag a, essa tag é para usar links
+<br> a href=""
+<br> <a href="">link</a> 
+<br> 1- colocando link na pagina, para levar para algum site ao clicar
+<br> href= inserir o caminho que eu posso colocar sem as aspas duplas que funciona, assim:
+<br>
+<a href="https://www.google.com/">link</a>
+<br>mas não é recomendado, pois caso precise colocar algum titulo, pode ser que a tag entenda que faça parte do link e não abra, então o ideal é colocar assim:
+<br>
+<a href="https://www.google.com/" title="Entrar no google">link</a>
+<br>
+<br>
+<h1>
+    <font color="#8B4513">
+        Atributos Globais mais utilizados
+    </font>
+</h1>
+<i>- Class</i>
+<br><i>- Contenteditable</i>
+<br><i>- data-*</i>
+<br><i>- hidden</i>
+<br><i>- id</i>
+<br><i>- style</i>
+<br><i>- tabindex</i>
+<br><i>- title</i> 
+<br>
+<br>
+<b><font color="#8B4513">
+   Class
+</font></b>
+<br>
+Exemplo da tag div e dentro dela vou usar um atributo class e colocar dentro a classe carrinho :
+<br>
+<br>
+<div class="carrinho de compras">
+   conteudo da classe 1<!--ai aqui dentro viriam outros elementos-->
+</div>
+
+ <!--posso colocar varios elementos que contem a classe carrinho-->
+<div class="carrinho de compras">
+    conteudo da classe 2<!--ai aqui dentro viriam outros elementos-->
+ </div>
+
+ <div class="carrinho de compras">
+    conteudo da classe 3<!--ai aqui dentro viriam outros elementos-->
+ </div>
+ <br>
+ <font COLOR="#6495ED">
+    A Classe é usada para aplicar estilo CSS, para classificar os conteudos, e alem disso
+    para acessar no JavaScript
+ </font>
+ <br>
+ <br>
+ <b><font color="#8B4513">
+    Contenteditable
+ </font></b>
+ <br>
+ Podemos colocar outro atributo dentro do elemento, chamado Contenteditable, que é para editar
+ o conteudo na pagina, podendo receber true ou false, significa que eu posso editar o conteudo 
+ da pagina, porém ao salvar a pagina, o conteudo digitado é perdido :
+ <br>
+ <br>
+ <div class="carrinho de compras" contenteditable="True">
+    Edite aqui <!--ai aqui dentro viriam outros elementos-->
+ </div>
+ <br>
+ <b><font color="#8B4513">
+    Data- 
+ </font></b>
+ <br>
+ <div class="carrinho de compras" data-posso-colocar-qlqr-nome-aqui>
+    Conteudo data<!--ai aqui dentro viriam outros elementos-->
+ </div>
+ <br>
+ essa separação do nome pode ser feito por - 
+ <br>
+ data-posso-colocar-qlqr-nome-aqui
+ <br>
+ <br>
+ ou tudo junto assim:
+ <br>
+ data-possocolocarqlqrnomeaqui
+ <br>
+ <br>
+ <b><font color="#8B4513">
+    Data-id 
+ </font></b>
+ <br>
+ <div class="carrinho de compras" data-id="" id="name">
+    Conteudo data-id<!--ai aqui dentro viriam outros elementos-->
+ </div>
+ <br>
+  O id="name" não pode ser usado com o mesmo nome na mesma pagina, diferente da 
+  classe que pode se repetir, mas o id não.
+<br>
+ <br>
+ <b><font color="#8B4513">
+    hidden 
+ </font></b>
+ <br>
+ ele vai esconder uma tag, por exemplo:
+ <br> 
+ <div class="carrinho de compras" hidden">
+    Conteudo hidden <!--ai aqui dentro viriam outros elementos-->
+ </div>
+ <br>
+ <b><font color="#8B4513">
+   id
+</font></b>
+<br>
+<div class="carrinho de compras" data-id="" id="">
+   Conteudo hidden <!--ai aqui dentro viriam outros elementos-->
+</div>
+<br>
+O id eu posso usar apenas um por pagina, não posso colocar em varias tags o mesmo
+nome de id, por exemplo: 
+<br>
+<br>class="carrinho de compras" data-id="" id="name1"
+<br>class="carrinho de compras" data-id="" id="name1"
+<br>class="carrinho de compras" data-id="" id="name1"
+<br>
+Não posso fazer esse id= name1 para todas essas classes dentro de uma mesma pagina.
+<br>
+Se caso eu precisar repetir o nome eu uso a classe como no exemplo, class="carrinho de compras":
+<br>
+<br>class="carrinho de compras" data-id="" id="name1"
+<br>class="carrinho de compras" data-id="" id="name2"
+<br>class="carrinho de compras" data-id="" id="name3"
+<br>
+<br>
+<b><font color="#8B4513">
+   style
+</font></b>
+<br>
+Estilos de fontes, cores etc, exemplo:
+<br>
+<div class="carrinho de compras" style="color: red;">
+Conteudo com style cor alterado para vermelho
+<br>Porém não usamos o style assim diretamente no HTML,
+<br>No html utilizamos o esqueleto apenas, stilos e fontes é configurado no <b>CSS</b>
+<br>Mas com esse exemplo, é bom sabermos que da pra usar no HTML
+</div>
+<br>
+<b><font color="#8B4513">
+   tabindex
+</font></b>
+<br>
+<div class="carrinho de compras" tabindex="1">
+</div>
+É o famoso tab de uma pagina, por onde irá percorrer conforme for navegando na pagina,
+vai passando pela sequencia que vc inserir, exemplo:
+<br>
+<div class="carrinho de compras" tabindex="2">
+   TAB2
+</div>
+<br>
+<div class="carrinho de compras" tabindex="1">
+   TAB1
+</div>
+<br>
+<div class="carrinho de compras" tabindex="3">
+   TAB3
+</div>
+<br>
+<b><font color="#8B4513">
+   title
+</font></b>
+<br>
+É para definir um titulo (hint), exemplo:
+<div class="carrinho de compras" title="Titulo definido pelo atributo title">
+   Olá, posicione o mouse em cima para ver o titulo
+</div>
+<br>
+<br>
+Esses foram os atributos globais, porém para visualizar e se aprofundar mais:
+<br>
+<a href="https://developer.mozilla.org/pt-BR/search?q=atributos+globais">Clique aqui pra ver mais atributos</a>
+<br>
+<br>
+<h1>
+   <font color="#8B4513">
+       Aninhamento de tags
+   </font>
+</h1>
+<br>
+como usar tags dentro de Tags
+<br>
+vamos usar a tag < p > que é uma tag para escrever paragragos
+<p>
+   escrever o <em>texto</em>  aqui
+</p>
+<p>simples assim <b>texto em negrito</b> ou <br>
+<i>texto em italico</i> </p>  
+falando em fluxo
+<br>
+<br>
+<b><font color="#8B4513">
+   FLUXOS
+</font></b>
+<br>
+a tag < p > quebra linha
+
+<p> 
+   Esse texto esta com tag p 
+   aqui continuei o texto em outra linha na 278,
+   e agora na 279 mas como estou dentro de uma unica tag p 
+   a linha nao é quebrada. Diferentemente se eu fizer assim:
+</p>
+<br>
+
+<p>
+   Esse texto esta com tag p 
+   <p>aqui continuei o texto em outra linha na 286,e usando outra tag P </p> <p>aqui estou na mesma linha 286, porem usando a tag P </p> 
+   <p>e assim vou conseguir ir quebrando linha usando a tag P de paragrafo</p> 
+</p>
+<br>
+ 
+
