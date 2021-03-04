@@ -1,0 +1,42 @@
+<!--
+  Conteudo do texto e 
+  caracteres reservados
+-->
+<p>
+   <br>quebra de </br> linha
+   <p> 
+   &nbsp; é para dar um espaço antes do texto  
+   </p>
+   <p> 
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ou posso colocar varios espaços antes do texto  
+   </p>
+</p>
+<br>
+<br>
+caracteres reservados
+<br>
+para usar caracteres reservados, como por exemplo:
+<br>
+< 
+   <br>
+>
+   <br>
+&
+   <br>
+"  "
+   <br>
+Esses caracteres são reservados e não devem ser utilizados assim puramente.
+<p>Então para utiliza-los tem uma regra:</p>
+<p>para escrever < utiliza o &l t;  que nada mais é que: &lt;</p>
+<p>para escrever > utiliza o &g t;  que nada mais é que: &gt;</p>
+<p>para escrever & utiliza o &am p; que nada mais é que: &amp;</p>
+<p>para escrever " utiliza o &quo t; que nada mais é que: &quot;</p>
+<p>para escrever ' utiliza o &apo s; que nada mais é que: &apos;</p>
+<br>
+<p>exemplos:</p>
+<p>Quando dinheiro é &lt; do que o valor da compra</p>
+<p>Quando valor da compra é &gt; do que o dinheiro</p>
+<p>Usando o &amp; para dizer Eu &amp; Vc</p>
+<p>E digamos que &quot; nem sempre é assim &quot;</p>
+<p>Um valor de campo &apos; menor &apos; que o mesmo</p>
+<br>
